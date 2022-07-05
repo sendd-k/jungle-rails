@@ -1,3 +1,13 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Products: <%= @products %></p>
-<p>Categories: <%= @categories %></p>
+<h1>Dashboard</h1>
+<table class="table table-bordered">
+<thead>
+  <tr>
+    <th>Products</th>
+    <th>Categories</th>
+  </tr>
+</thead>
+<tbody>
+  <td> <%= @products %> </td>
+  <td> <%= @categories %> </td>
+</tbody>
+</table>
