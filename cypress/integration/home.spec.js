@@ -1,4 +1,7 @@
 describe("Home Page Tests", () => {
+  beforeEach(() => {
+    cy.request("/cypress_rails_reset_state");
+  });
   it("Visits Home Page", () => {
     cy.visit("http://localhost:3000");
   });

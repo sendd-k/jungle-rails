@@ -46,7 +46,7 @@ cat1.products.create!({
   As a defense mechanism the Giant Tea grow slippery leaves to prevent insects from easily eaten them.
   They rely on animal pollination to reproduce. To promote pollination, they produce aromatic scents.",
   image: open_asset('plante_1.jpg'),
-  quantity: 0,
+  quantity: 10,
   price: 64.99
 })
 
